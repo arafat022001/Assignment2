@@ -1,75 +1,84 @@
+
+
 NIT3213 Final Assignment – Android App
+
 Developer
 Name: Yeasin Arafat
 Student ID: s8119081
 Unit: NIT3213 – Mobile Application Development
 
 Project Overview
-This Android application was developed for the NIT3213 final assignment to demonstrate proficiency in:
-•	API integration
-•	Fragment-based navigation
-•	Dependency Injection using Hilt
-•	Clean architecture
-•	Unit testing with JUnit
+This Android application was developed as part of the final assessment for the NIT3213 unit. It demonstrates core Android development skills, including:
+
+* API integration using Retrofit
+* Fragment-based navigation
+* Dependency Injection via Hilt
+* Clean Architecture principles
+* Unit Testing with JUnit
+
 The app includes:
-•	Login Screen
-•	Dashboard with RecyclerView
-•	Details Screen
+
+* Login Screen
+* Dashboard (RecyclerView implementation)
+* Details Screen
 
 API Information
-Base URL: https://nit3213api.onrender.com/
+Base URL: [https://nit3213api.onrender.com/](https://nit3213api.onrender.com/)
+
 Endpoints:
-1.	Login (POST)
-/footscray/auth or /sydney/auth or /ort/auth
-Request body:
-2.	{
-3.	  "username": "YourFirstName",
-4.	  "password": "sYourStudentID"
-5.	}
-6.	Dashboard (GET)
-/dashboard/{keypass}
+
+1. Login (POST)
+   /footscray/auth, /sydney/auth, or /ort/auth
+   Request body:
+   {
+   "username": "YourFirstName",
+   "password": "sYourStudentID"
+   }
+
+2. Dashboard (GET)
+   /dashboard/{keypass}
 
 Login Credentials Format
-•	Username: Your first name (e.g., Yeasin)
-•	Password: Your student ID (e.g., s8119081
+Username: Your first name (e.g., Yeasin)
+Password: Your student ID (e.g., s8119081)
 
 Features
-Login Screen: Authenticates users using provided credentials
- 
-Dashboard: Displays list of entities using RecyclerView
- 
+Login Screen: Authenticates users using credentials via the API
+Dashboard: Displays a list of entities using RecyclerView
+Details Screen: Shows detailed data retrieved from the API
+Dependency Injection: Implemented using Hilt
+Unit Testing: Basic unit tests for ViewModel logic
 
-Details Screen: Shows detailed information from the API
-    
+Unit Tests
 
-
-Dependency Injection: Implemented with Hilt 
- Unit Testing: Includes test cases for core components
-  
-
- Unit Tests
-•	Includes basic unit test for ViewModel logic.
-•	Test class: EntityUnitTest.kt
-•	Run via Build > Run Tests in Android Studio
+* Located in EntityUnitTest.kt
+* Tests core ViewModel logic
+* Run via Build > Run Tests in Android Studio
 
 Tech Stack
-•	Kotlin
-•	Android SDK
-•	Retrofit
-•	Hilt
-•	ViewModel + LiveData
-•	RecyclerView
-•	JUnit
 
- How to Build & Run
-1.	Clone the repository
-2.	git clone https://github.com/your-username/NIT3213-Final-Assignment.git
-3.	cd NIT3213-Final-Assignment
-4.	Open in Android Studio
-5.	Run the App using emulator or physical device
-6.	API Usage: Ensure internet permission is enabled in AndroidManifest.xml.
+* Kotlin
+* Android SDK
+* Retrofit
+* Hilt
+* ViewModel and LiveData
+* RecyclerView
+* JUnit
 
- License
-This project is for academic purposes only (Victoria University – NIT3213).
+How to Build & Run
+
+1. Clone the repository:
+   git clone [https://github.com/your-username/NIT3213-Final-Assignment.git](https://github.com/your-username/NIT3213-Final-Assignment.git)
+   cd NIT3213-Final-Assignment
+
+2. Open the project in Android Studio
+
+3. Run on an emulator or connected physical device
+
+4. Ensure internet permission is enabled in AndroidManifest.xml: <uses-permission android:name="android.permission.INTERNET" />
+
+License
+This project is developed exclusively for academic purposes
+Victoria University – NIT3213 Final Assignment
 
 
