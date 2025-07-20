@@ -1,6 +1,6 @@
 NIT3213 Final Assignment – Android App
 Developer
-Name: Yeasin Araft
+Name: Yeasin Arafat
 Student ID: s8119081
 Unit: NIT3213 – Mobile Application Development
 
