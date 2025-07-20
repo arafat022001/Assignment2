@@ -1,7 +1,7 @@
 NIT3213 Final Assignment – Android App
 Developer
-Name: Rezaul Karim
-Student ID: s8112591
+Name: Yeasin Araft
+Student ID: s8119081
 Unit: NIT3213 – Mobile Application Development
 
 Project Overview
@@ -30,8 +30,8 @@ Request body:
 /dashboard/{keypass}
 
 Login Credentials Format
-•	Username: Your first name (e.g., Rezaul)
-•	Password: Your student ID (e.g., s8112591
+•	Username: Your first name (e.g., Yeasin)
+•	Password: Your student ID (e.g., s8119081
 
 Features
 Login Screen: Authenticates users using provided credentials
